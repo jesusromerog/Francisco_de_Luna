@@ -2,18 +2,22 @@ body {
 	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
 	padding: 20px; /*No usar pixeles*/
 	background-color: black;
-	Background-repeat: no-repeat;
+	Background-repeat: no-repeat;*/
 }
+
 .mainNav {
+	position: relative;
+	z-index: 99999;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
 }
-.mainNav li {
+.mainNav li{
+	z-index: 99999;
 	float: right;
 	width: 6em;
 	color: white;
 	font-size: 1.8em;
 }
-.logo {
+
