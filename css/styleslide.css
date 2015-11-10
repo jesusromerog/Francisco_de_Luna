@@ -45,12 +45,6 @@
     -ms-animation: titleAnimation 36s linear infinite 0s;
     animation: titleAnimation 36s linear infinite 0s; 
 }
-.cb-slideshow li div h3 { 
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
-    padding: 0;
-    line-height: 200px; 
-}
 .cb-slideshow li:nth-child(1) span { 
     background-image: url(../images/1.jpg) 
 }
