@@ -1,9 +1,17 @@
-body {
+body, {
 	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
 	padding: 20px; /*No usar pixeles*/
 	background-color: black;
-	Background-repeat: no-repeat;*/
+	Background-repeat: no-repeat;
 }
+
+a.no {
+	 text-decoration: none;
+	 color: white;
+	 font: 100% Verdana, Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+	 font-size: 0.9em;
+ }
 
 .mainNav {
 	position: relative;
@@ -21,3 +29,13 @@ body {
 	font-size: 1.8em;
 	font-weight: bold;
 }
+
+li {
+	list-style: none;
+}
+/*
+foto en galerias 153px X 153px
+gallery
+tamaño pequeñas 200 x 200
+tamaño grandes var x 1200
+*/
