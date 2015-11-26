@@ -1,0 +1,14 @@
+.container {
+  width: auto;
+  max-width: 800px;
+}
+.form-group {
+  margin-bottom: 8px;
+}
+.control-label {
+  font-size: 14px;
+  color: white;
+}
+#feedbackForm {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

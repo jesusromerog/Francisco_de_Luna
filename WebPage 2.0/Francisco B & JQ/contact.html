@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Francisco De Luna</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- CSS Form Contact -->
+    <link rel="stylesheet" href="assets/vender/intl-tel-input/css/intlTelInput.css">
+    <link rel="stylesheet" href="css/contactform.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Add missing description -->
+	<meta name="description" content="..." />
+	<!-- Add missing keywords -->
+	<meta name="keywords" content="x, y, z" />
+	<!-- Add missing icon in images -->
+	<link rel="shortcut icon" href="img/logo.ico">
+	<meta name="author" content="Daniel Lopez" />
+	
+  </head>
+<body style="background-color:black;" >
+  	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="index.html"><img alt="Francisco De Luna" src="img/logo.png"></a>
+	    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li strong><a href="index.html">Home</a></li>
+	        <li strong><a href="gallery.html">Gallery</a></li>
+	        <li strong><a href="contact.html">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+  <!-- Form Contact -->
+  <div class="container">
+    <div id="contact_form" class="row">
+      <div class="col-md-12">
+        <form role="form" id="feedbackForm"  data-toggle="validator" data-disable="false">
+          <div class="form-group">
+            <label class="control-label" for="name">Name *</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required/>
+              <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+            </div>
+            <span class="help-block" style="display: none;">Please enter your name.</span>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="phone">Phone</label>
+            <input type="tel" class="form-control optional" id="phone" name="phone" placeholder="Enter your phone (Optional)"/>
+            <span class="help-block" style="display: none;">Please enter a valid phone number.</span>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="email">Email Address *</label>
+            <div class="input-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required/>
+              <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+            </div>
+            <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="message">Message *</label>
+            <div class="input-group">
+              <textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message" required></textarea>
+              <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+            </div>
+            <span class="help-block" style="display: none;">Please enter a message.</span>
+          </div>
+          <span class="help-block" style="display: none;">Please enter a the security code.</span>
+          <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send</button>
+        </form>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/.container-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Scripts for form -->
+  <script src="assets/vender/intl-tel-input/js/intlTelInput.min.js"></script>
+  <script src="assets/js/contact-form.js"></script>
+</body>
+</html>
